@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <topline />
+  <feeds />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { topline } from './components/topline/'
+import feeds from './components/feeds.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    topline,
+    feeds
   }
 }
 </script>
